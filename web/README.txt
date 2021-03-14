@@ -1,13 +1,13 @@
 
 TITLE: 
-Wedding - 100% Fully Responsive Free HTML5 Bootstrap Template
+Nuptial - 100% Fully Responsive Free HTML5 Bootstrap Template
 
 AUTHOR:
-DESIGNED & DEVELOPED by GetTemplates.co
+DESIGNED & DEVELOPED by FREEHTML5.co
 
-Website: http://gettemplates.co/
-Twitter: http://twitter.com/gettemplatesco
-Facebook: http://facebook.com/gettemplatesco
+Website: http://freehtml5.co/
+Twitter: http://twitter.com/fh5co
+Facebook: http://facebook.com/fh5co
 
 
 CREDITS:
@@ -28,7 +28,7 @@ Google Fonts
 https://www.google.com/fonts/
 
 Google Map
-http://maps.google.com/
+https://maps.google.com/
 
 Icomoon
 https://icomoon.io/app/
@@ -39,24 +39,17 @@ https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
 animate.css
 http://daneden.me/animate
 
-jQuery Waypoint
+jQuery Waypoint & Sticky by Waypoint
 https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
 
-Owl Carousel
-http://www.owlcarousel.owlgraphic.com/
+Superfish Menu
+http://users.tpg.com.au/j_birch/plugins/superfish/examples/
 
-jQuery countTo
-http://www.owlcarousel.owlgraphic.com/
+hoverIntent
+https://github.com/briancherne/jquery-hoverIntent
 
 Stellar Parallax
 http://markdalgleish.com/projects/stellar.js/
 
 Magnific Popup
 http://dimsemenov.com/plugins/magnific-popup/
-
-SimplyCountDown JS
-http://vincentloy.github.io/simplyCountdown.js/
-
-Demo Images:
-http://unsplash.com
-
