@@ -56,6 +56,8 @@
 	<link rel="stylesheet" href="css/superfish.css">
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Leaflet JS-->
+	<link rel="stylesheet" href="css/leaflet.css">
 
 	<link rel="stylesheet" href="css/style.css">
 
@@ -123,13 +125,19 @@
 						</div>
 					</div>
 					<div class="row row-bottom-padded-md">
-						<div class="col-md-6 text-center animate-box">
+						<div class="col-md-12 text-center animate-box">
 							<div class="wedding-events">
 								<div class="ceremony-bg" style="background-image: url(images/wed-ceremony.png);"></div>
 								<div class="desc">
 									<h3>Castello Moncrivello</h3>
 									<p><strong>Sabato 25 Settembre 2021, 11.00 AM - 8.00PM</strong></p>
-									<p>Il Castello di Moncrivello, antica residenza di casa Savoia, risalente all’XI secolo, si trova in posizione centrale tra Torino e Milano, comodamente raggiungibile dalle principali località del Piemonte e della Lombardia. Sapientemente restaurato in modo da trovare il connubio ideale tra la conservazione dell’antico fascino medievale e le moderne esigenze degli eventi del XXI secolo, è monumento nazionale dal 1908.</p>
+									<p>Il Castello di Moncrivello, antica residenza di casa Savoia, risalente all’XI secolo, si trova in
+										posizione centrale tra Torino e Milano, comodamente raggiungibile dalle principali località del
+										Piemonte e della Lombardia. Sapientemente restaurato in modo da trovare il connubio ideale tra la
+										conservazione dell’antico fascino medievale e le moderne esigenze degli eventi del XXI secolo, è
+										monumento nazionale dal 1908.</p>
+									<p>Alla base del castello sono presenti due parcheggi principali nei quali poter lasciare la propria
+										vettura; una persona del Castello sarà disponibile per indicarvi il parcheggio migliore</p>
 								</div>
 							</div>
 						</div>
@@ -174,9 +182,38 @@
 	</div>
 	<!-- END fh5co-wrapper -->
 
-	<!-- Google Map -->
-	<script
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<!-- Leaftlet JS -->
+	<script src="js/leaflet.js"></script>
+	<script>
+		// Creating map options
+		var mapOptions = {
+			center: [45.33022, 7.99551],
+			zoom: 16
+		}
+		// Creating a map object
+		var map = new L.map('map', mapOptions);
+
+		// Creating a Layer object
+		var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+
+		// Adding layer to the map
+		map.addLayer(layer);
+
+		var leafIcon = L.icon({
+			iconUrl: 'images/leaf-green.png',
+			shadowUrl: 'images/leaf-shadow.png',
+
+			iconSize: [38, 95], // size of the icon
+			shadowSize: [50, 64], // size of the shadow
+			iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
+			shadowAnchor: [4, 62],  // the same for the shadow
+			popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
+		});
+
+		L.marker([45.33022, 7.99551], { icon: leafIcon }).addTo(map)
+			.bindPopup('Castello di Moncrivello')
+			.openPopup();
+	</script>
 	<!-- jQuery -->
 	<script src="dist/scripts.min.js"></script>
 </body>
