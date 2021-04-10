@@ -5,7 +5,8 @@ var gulp = require('gulp'),
   uglify = require('gulp-uglify'),
   concat = require('gulp-concat'),
   rename = require('gulp-rename'),
-  order = require('gulp-order');
+  order = require('gulp-order'),
+  deploy = require('gulp-gh-pages');
 
 var jsSources = ['js/*.js'],
   sassSources = ['sass/*.scss'],
@@ -13,7 +14,6 @@ var jsSources = ['js/*.js'],
   outputCSSDir = 'css',
   outputJSDir = 'js',
   outputDir = 'dist';
-
 
 gulp.task('sass', async function () {
   gulp.src(sassSources)
@@ -64,6 +64,11 @@ gulp.task('connect', async function () {
 gulp.task('html', async function () {
   gulp.src(htmlSources)
     .pipe(connect.reload())
+});
+
+gulp.task('deploy', function () {
+  return gulp.src("./dist/**/*")
+    .pipe(deploy());
 });
 
 gulp.task('default', gulp.series('html', 'js', 'sass', 'connect', 'watch'));
