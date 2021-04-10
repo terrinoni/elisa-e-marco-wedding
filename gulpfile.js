@@ -67,7 +67,7 @@ gulp.task('html', async function () {
 });
 
 gulp.task('deploy', function () {
-  return gulp.src("./dist/**/*")
+  return gulp.src("./**/*")
     .pipe(deploy());
 });
 
