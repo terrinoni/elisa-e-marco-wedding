@@ -4,7 +4,8 @@ Elisa e Marco wedding site
 ## GitHub Pages deploy guidelines
 https://medium.com/superhighfives/deploying-to-github-pages-with-gulp-c06efc527de8
 
-## Template credits
+## Template Credits
+
 TITLE: 
 Nuptial - 100% Fully Responsive Free HTML5 Bootstrap Template
 
@@ -57,4 +58,8 @@ Stellar Parallax
 http://markdalgleish.com/projects/stellar.js/
 
 Magnific Popup
+<<<<<<< HEAD
 http://dimsemenov.com/plugins/magnific-popup/
+=======
+http://dimsemenov.com/plugins/magnific-popup/
+>>>>>>> c8fa6508719edfb52a44c1f81e3728bbf8cfe05c

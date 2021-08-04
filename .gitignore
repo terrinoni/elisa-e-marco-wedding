@@ -1,4 +1,5 @@
 /dist
+/.publish
 
 # Created by https://www.toptal.com/developers/gitignore/api/windows,linux,macos,osx,intellij+all,eclipse,vscode,notepadpp,sublimetext,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,macos,osx,intellij+all,eclipse,vscode,notepadpp,sublimetext,node
