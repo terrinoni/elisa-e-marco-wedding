@@ -1,0 +1,34 @@
+{
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-order": "latest",
+    "gulp-rename": "latest",
+    "gulp-sass": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest",
+    "sass": "^1.38.1"
+  },
+  "name": "elisa-e-marco-wedding",
+  "description": "Elisa & Marco Sposi",
+  "version": "0.0.1",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terrinoni/elisa-e-marco-wedding.git"
+  },
+  "keywords": [
+    "wedding"
+  ],
+  "author": "Marco Terrinoni <marco.terrinoni90@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/terrinoni/elisa-e-marco-wedding/issues"
+  },
+  "homepage": "https://github.com/terrinoni/elisa-e-marco-wedding#readme"
+}
