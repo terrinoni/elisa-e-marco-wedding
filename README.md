@@ -58,8 +58,4 @@ Stellar Parallax
 http://markdalgleish.com/projects/stellar.js/
 
 Magnific Popup
-<<<<<<< HEAD
 http://dimsemenov.com/plugins/magnific-popup/
-=======
-http://dimsemenov.com/plugins/magnific-popup/
->>>>>>> c8fa6508719edfb52a44c1f81e3728bbf8cfe05c
