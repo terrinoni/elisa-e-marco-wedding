@@ -1,11 +1,10 @@
 @font-face {
-  font-family: 'icomoon';
+  font-family: "icomoon";
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-
 /* =======================================================
 *
 * 	Template Style 
@@ -21,7 +20,6 @@ body {
   font-weight: 300;
   overflow-x: hidden;
 }
-
 body.fh5co-offcanvas {
   overflow: hidden;
 }
@@ -32,7 +30,6 @@ a {
   -o-transition: 0.5s, ease;
   transition: 0.5s, ease;
 }
-
 a:hover {
   text-decoration: none;
   color: #F69D9D;
@@ -91,27 +88,22 @@ figure {
   padding: 10px 0;
   background: #F69D9D;
 }
-
 .header-top .fh5co-link a {
   margin-left: 10px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.7);
 }
-
 .header-top .fh5co-link a:first-child {
   margin-left: 0;
 }
-
 .header-top .fh5co-link a:hover {
   color: white !important;
 }
-
 @media screen and (max-width: 768px) {
   .header-top .fh5co-link {
     text-align: center;
   }
 }
-
 .header-top .fh5co-social a {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
@@ -121,16 +113,13 @@ figure {
   -o-transition: 0.5s, ease-in-out;
   transition: 0.5s, ease-in-out;
 }
-
 .header-top .fh5co-social a:last-child {
   margin-right: 0;
 }
-
 .header-top .fh5co-social a:hover, .header-top .fh5co-social a:focus, .header-top .fh5co-social a:active {
   text-decoration: none;
   color: white !important;
 }
-
 .header-top .fh5co-social a:hover i, .header-top .fh5co-social a:focus i, .header-top .fh5co-social a:active i {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -138,7 +127,6 @@ figure {
   -o-transform: scale(1.2);
   transform: scale(1.2);
 }
-
 @media screen and (max-width: 768px) {
   .header-top .fh5co-social {
     text-align: center !important;
@@ -151,10 +139,9 @@ figure {
   height: 800px;
   width: 100%;
 }
-
 @media screen and (max-width: 768px) {
   .fh5co-cover,
-  .fh5co-hero {
+.fh5co-hero {
     height: 700px;
   }
 }
@@ -174,14 +161,12 @@ figure {
   background-size: cover;
   position: relative;
 }
-
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     heifght: inherit;
     padding: 3em 0;
   }
 }
-
 .fh5co-cover .display-t {
   display: table;
   height: 800px;
@@ -189,46 +174,38 @@ figure {
   position: relative;
   z-index: 2;
 }
-
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t {
     height: 600px;
   }
 }
-
 .fh5co-cover .display-tc {
   display: table-cell;
   vertical-align: middle;
 }
-
 .fh5co-cover .display-tc h1 {
   color: #fff;
 }
-
 .fh5co-cover .display-tc h2 {
   color: #fff;
   font-size: 80px;
   margin-bottom: 30px;
   font-weight: 300 !important;
 }
-
 .fh5co-cover .display-tc h2 strong {
   font-weight: 700;
 }
-
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-tc h2 {
     font-size: 60px;
   }
 }
-
 .fh5co-cover .display-tc p {
   color: #fff;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 7px;
 }
-
 .fh5co-cover .display-tc p span {
   border-top: 2px solid #fff;
   border-bottom: 2px solid #fff;
@@ -263,7 +240,6 @@ figure {
   font-size: 16px;
   border-bottom: none !important;
 }
-
 .sf-menu a:hover, .sf-menu a:focus {
   color: #F69D9D !important;
 }
@@ -311,7 +287,7 @@ figure {
 }
 
 .sf-arrows .sf-with-ul:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   right: 1em;
@@ -364,11 +340,9 @@ figure {
   font-weight: 700;
   float: left;
 }
-
 #fh5co-logo span {
   font-weight: 700;
 }
-
 @media screen and (max-width: 768px) {
   #fh5co-logo {
     width: 100%;
@@ -376,11 +350,9 @@ figure {
     text-align: center;
   }
 }
-
 #fh5co-logo a {
   color: #F69D9D;
 }
-
 #fh5co-logo a:hover, #fh5co-logo a:focus {
   color: #F69D9D !important;
 }
@@ -392,18 +364,16 @@ figure {
   float: right;
   margin-top: 15px;
 }
-
 #fh5co-menu-wrap .sf-menu a {
-  padding: 1em .75em;
+  padding: 1em 0.75em;
 }
 
 #fh5co-primary-menu > li > ul li.active > a {
   color: #F69D9D !important;
 }
-
 #fh5co-primary-menu > li > .sf-with-ul:after {
   border: none !important;
-  font-family: 'icomoon';
+  font-family: "icomoon";
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -415,21 +385,19 @@ figure {
   -moz-osx-font-smoothing: grayscale;
   position: absolute;
   float: right;
-  margin-right: -0px;
+  margin-right: 0px;
   top: 50%;
   font-size: 12px;
   margin-top: -7px;
   content: "\e922";
   color: rgba(0, 0, 0, 0.5);
 }
-
 #fh5co-primary-menu > li > ul li {
   position: relative;
 }
-
 #fh5co-primary-menu > li > ul li > .sf-with-ul:after {
   border: none !important;
-  font-family: 'icomoon';
+  font-family: "icomoon";
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -462,7 +430,6 @@ figure {
   -o-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
-
 #fh5co-primary-menu .fh5co-sub-menu > li > .fh5co-sub-menu {
   left: 100%;
 }
@@ -473,7 +440,7 @@ figure {
   left: 20px;
   width: 0;
   height: 0;
-  content: '';
+  content: "";
 }
 
 #fh5co-primary-menu .fh5co-sub-menu:after {
@@ -486,7 +453,7 @@ figure {
   border-bottom: 8px solid #fff;
   border-bottom: 8px solid white;
   border-left: 8px solid transparent;
-  content: '';
+  content: "";
 }
 
 #fh5co-primary-menu .fh5co-sub-menu .fh5co-sub-menu:before {
@@ -508,7 +475,6 @@ figure {
   -o-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.09);
   box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.09);
 }
-
 .site-header.has-image #primary-menu .sub-menu:before {
   display: none;
 }
@@ -522,7 +488,6 @@ figure {
   text-transform: none;
   background: none;
 }
-
 #fh5co-primary-menu .fh5co-sub-menu a:hover {
   color: #F69D9D !important;
 }
@@ -538,17 +503,16 @@ figure {
 .fh5co-content-section {
   padding: 7em 0;
 }
-
 @media screen and (max-width: 768px) {
   #fh5co-couple,
-  #fh5co-countdown,
-  #fh5co-groom-bride,
-  #fh5co-blog-section,
-  #fh5co-started,
-  #fh5co-when-where,
-  #fh5co-guest,
-  #fh5co-gallery,
-  .fh5co-content-section {
+#fh5co-countdown,
+#fh5co-groom-bride,
+#fh5co-blog-section,
+#fh5co-started,
+#fh5co-when-where,
+#fh5co-guest,
+#fh5co-gallery,
+.fh5co-content-section {
     padding: 4em 0;
   }
 }
@@ -561,14 +525,12 @@ figure {
   padding-bottom: 1em;
   margin-bottom: 3em;
 }
-
 .heading-section h2 {
   font-size: 50px;
   font-weight: 300;
   position: relative;
   color: #F69D9D;
 }
-
 .heading-section p {
   font-size: 18px;
 }
@@ -580,23 +542,19 @@ figure {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-
 #fh5co-couple h3 {
   font-size: 30px;
 }
-
 @media screen and (max-width: 768px) {
   #fh5co-couple h3 {
     font-size: 35px;
   }
 }
-
 #fh5co-couple .amp-center {
   font-size: 60px;
   margin-top: 100%;
   color: #f69d9d;
 }
-
 @media screen and (max-width: 768px) {
   #fh5co-couple .amp-center {
     font-size: 40px;
@@ -606,19 +564,16 @@ figure {
 #fh5co-countdown {
   background: #F69D9D;
 }
-
 #fh5co-countdown .countdown {
   margin-bottom: 0;
   font-size: 80px;
   color: #fff;
 }
-
 #fh5co-countdown .countdown span {
   margin: 0 30px;
   display: inline-block;
   font-family: "Montez", cursive;
 }
-
 #fh5co-countdown .countdown small {
   display: block;
   font-size: 16px;
@@ -634,21 +589,17 @@ figure {
 .couple-desc {
   padding: 3em;
 }
-
 @media screen and (max-width: 768px) {
   .couple-desc {
     padding: 1.5em;
   }
 }
-
 .couple-desc h3 {
   font-size: 40px;
 }
-
 .couple-desc .fh5co-social-icons a:first-child {
   padding-left: 0;
 }
-
 @media screen and (max-width: 768px) {
   .couple-desc .fh5co-social-icons a i {
     font-size: 20px;
@@ -658,7 +609,6 @@ figure {
 .wedding-events {
   background: #fff;
 }
-
 .wedding-events .ceremony-bg {
   background-size: cover;
   background-position: center center;
@@ -666,15 +616,12 @@ figure {
   position: relative;
   height: 400px;
 }
-
 .wedding-events .desc {
   padding: 2em;
 }
-
 .wedding-events .desc h3 {
   font-size: 30px;
 }
-
 .wedding-events .desc p strong {
   font-size: 14px;
 }
@@ -685,7 +632,6 @@ figure {
   background-position: bottom center;
   background-repeat: no-repeat;
 }
-
 #fh5co-started .overlay {
   position: absolute;
   top: 0;
@@ -694,7 +640,6 @@ figure {
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
 }
-
 #fh5co-started .form-control {
   background: rgba(0, 0, 0, 0.2);
   border: none !important;
@@ -705,29 +650,23 @@ figure {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-
 #fh5co-started .form-control::-webkit-input-placeholder {
   color: #fff;
 }
-
 #fh5co-started .form-control:-moz-placeholder {
   /* Firefox 18- */
   color: #fff;
 }
-
 #fh5co-started .form-control::-moz-placeholder {
   /* Firefox 19+ */
   color: #fff;
 }
-
 #fh5co-started .form-control:-ms-input-placeholder {
   color: #fff;
 }
-
 #fh5co-started .form-control:focus {
   background: rgba(255, 255, 255, 0.3);
 }
-
 #fh5co-started .btn-block {
   height: 54px;
   border: none !important;
@@ -739,26 +678,21 @@ figure {
   padding-left: 50px;
   padding-right: 50px;
 }
-
 #fh5co-started .form-inline .form-group {
   width: 100% !important;
   margin-bottom: 10px;
 }
-
 #fh5co-started .form-inline .form-group .form-control {
   width: 100%;
   padding: 27px 20px !important;
 }
-
 #fh5co-started .heading-section {
   margin-bottom: 30px;
 }
-
 #fh5co-started .heading-section h2 {
   margin-bottom: 20px;
   color: rgba(255, 255, 255, 0.9);
 }
-
 #fh5co-started .heading-section p {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -770,7 +704,6 @@ figure {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-
 .groom-men h3 {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 18px;
@@ -779,7 +712,6 @@ figure {
 .gallery {
   margin-bottom: 30px;
 }
-
 .gallery .gallery-img {
   width: 100%;
   float: left;
@@ -788,7 +720,6 @@ figure {
   z-index: 1;
   margin-bottom: 25px;
 }
-
 .gallery .gallery-img img {
   position: relative;
   max-width: 100%;
@@ -801,7 +732,6 @@ figure {
   -o-transition: 0.9s;
   transition: 0.9s;
 }
-
 .gallery .gallery-img:hover img {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
@@ -813,17 +743,14 @@ figure {
 .fh5co-blog {
   margin-bottom: 60px;
 }
-
 .fh5co-blog a img {
   width: 100%;
 }
-
 @media screen and (max-width: 768px) {
   .fh5co-blog {
     width: 100%;
   }
 }
-
 .fh5co-blog .blog-text {
   margin-bottom: 30px;
   position: relative;
@@ -832,32 +759,26 @@ figure {
   padding: 30px;
   float: right;
 }
-
 .fh5co-blog .blog-text span {
   display: inline-block;
   margin-bottom: 20px;
   font-size: 18px;
 }
-
 .fh5co-blog .blog-text span.by {
   color: rgba(0, 0, 0, 0.5);
   margin-right: 7px;
 }
-
 .fh5co-blog .blog-text span.posted_date {
   color: rgba(0, 0, 0, 0.5);
   margin-right: 7px;
 }
-
 .fh5co-blog .blog-text span.comment a {
   color: rgba(0, 0, 0, 0.3);
 }
-
 .fh5co-blog .blog-text span.comment a i {
   color: #F69D9D;
   padding-left: 4px;
 }
-
 .fh5co-blog .blog-text h3 {
   font-size: 20px;
   margin-bottom: 20px;
@@ -865,7 +786,6 @@ figure {
   line-height: 1.5;
   font-family: "Open Sans", Arial, sans-serif;
 }
-
 .fh5co-blog .blog-text h3 a {
   color: rgba(0, 0, 0, 0.6);
 }
@@ -875,7 +795,6 @@ figure {
   height: 500px;
   position: relative;
 }
-
 @media screen and (max-width: 768px) {
   #map {
     height: 200px;
@@ -886,11 +805,9 @@ figure {
   padding: 4px 10px;
   color: #F69D9D;
 }
-
 .fh5co-social-icons > a i {
   font-size: 26px;
 }
-
 .fh5co-social-icons > a:hover, .fh5co-social-icons > a:focus, .fh5co-social-icons > a:active {
   text-decoration: none;
   color: #5a5a5a;
@@ -900,20 +817,16 @@ figure {
   background: #F69D9D;
   padding: 60px 0 40px;
 }
-
 #footer p {
   color: white;
   font-size: 14px;
 }
-
 #footer p a {
   color: rgba(255, 255, 255, 0.5);
 }
-
 #footer p a:hover, #footer p a:active, #footer p a:focus {
   color: rgba(255, 255, 255, 0.9) !important;
 }
-
 #footer h2 {
   color: #fff;
   font-size: 60px;
@@ -926,26 +839,22 @@ figure {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-
 .btn.btn-primary {
   background: #F69D9D;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
-
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
   background: #F69D9D;
   color: #fff !important;
 }
-
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
   color: #fff;
   outline: none !important;
 }
-
 .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
   border-color: transparent;
 }
@@ -962,7 +871,6 @@ figure {
 .fh5co-offcanvas {
   overflow: hidden;
 }
-
 .fh5co-offcanvas #fh5co-wrapper {
   overflow: hidden !important;
 }
@@ -973,7 +881,6 @@ figure {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-
 .fh5co-offcanvas #fh5co-page {
   -moz-transform: translateX(-240px);
   -webkit-transform: translateX(-240px);
@@ -1000,42 +907,34 @@ figure {
   overflow-y: scroll !important;
   display: none;
 }
-
 @media screen and (max-width: 768px) {
   #offcanvas-menu {
     display: block;
   }
 }
-
 #offcanvas-menu ul {
   padding: 0;
   margin: 0;
 }
-
 #offcanvas-menu ul li {
   padding: 0;
   margin: 0 0 10px 0;
   list-style: none;
 }
-
 #offcanvas-menu ul li a {
   font-size: 18px;
   color: rgba(255, 255, 255, 0.4);
 }
-
 #offcanvas-menu ul li a:hover {
   color: #F69D9D;
 }
-
 #offcanvas-menu ul li > .fh5co-sub-menu {
   margin-top: 9px;
   padding-left: 20px;
 }
-
 #offcanvas-menu ul li.active > a {
   color: #F69D9D;
 }
-
 #offcanvas-menu ul .fh5co-sub-menu {
   display: block !important;
 }
@@ -1044,20 +943,16 @@ figure {
   cursor: pointer;
   text-decoration: none;
 }
-
 .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
   background: #fff;
 }
-
 .fh5co-nav-toggle.dark.active i::before, .fh5co-nav-toggle.dark.active i::after {
   background: #fff;
 }
-
 .fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
   outline: none;
   border-bottom: none !important;
 }
-
 .fh5co-nav-toggle i {
   position: relative;
   display: -moz-inline-stack;
@@ -1067,15 +962,14 @@ figure {
   width: 30px;
   height: 2px;
   color: #fff;
-  font: bold 14px/.4 Helvetica;
+  font: bold 14px/0.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
   background: #fff;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
 }
-
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
-  content: '';
+  content: "";
   width: 30px;
   height: 2px;
   background: #fff;
@@ -1085,14 +979,12 @@ figure {
   -o-transition: 0.2s;
   transition: 0.2s;
 }
-
 .fh5co-nav-toggle.dark i {
   position: relative;
   color: #000;
   background: #000;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
 }
-
 .fh5co-nav-toggle.dark i::before, .fh5co-nav-toggle.dark i::after {
   background: #000;
   -webkit-transition: 0.2s;
@@ -1148,7 +1040,6 @@ figure {
   display: none;
   cursor: pointer;
 }
-
 @media screen and (max-width: 768px) {
   .fh5co-nav-toggle {
     display: block;
@@ -1167,7 +1058,6 @@ figure {
 .row-bottom-padded-lg {
   padding-bottom: 7em;
 }
-
 @media screen and (max-width: 768px) {
   .row-bottom-padded-lg {
     padding-bottom: 2em;
@@ -1177,7 +1067,6 @@ figure {
 .row-top-padded-lg {
   padding-top: 7em;
 }
-
 @media screen and (max-width: 768px) {
   .row-top-padded-lg {
     padding-top: 2em;
@@ -1187,7 +1076,6 @@ figure {
 .row-bottom-padded-md {
   padding-bottom: 4em;
 }
-
 @media screen and (max-width: 768px) {
   .row-bottom-padded-md {
     padding-bottom: 2em;
@@ -1197,7 +1085,6 @@ figure {
 .row-top-padded-md {
   padding-top: 4em;
 }
-
 @media screen and (max-width: 768px) {
   .row-top-padded-md {
     padding-top: 2em;
@@ -1207,7 +1094,6 @@ figure {
 .row-bottom-padded-sm {
   padding-bottom: 2em;
 }
-
 @media screen and (max-width: 768px) {
   .row-bottom-padded-sm {
     padding-bottom: 2em;
@@ -1217,7 +1103,6 @@ figure {
 .row-top-padded-sm {
   padding-top: 2em;
 }
-
 @media screen and (max-width: 768px) {
   .row-top-padded-sm {
     padding-top: 2em;

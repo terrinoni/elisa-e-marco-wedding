@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "gulp": "4.0",
+    "gulp": "latest",
     "gulp-concat": "latest",
     "gulp-connect": "latest",
     "gulp-gh-pages": "^0.5.4",
@@ -8,7 +8,8 @@
     "gulp-rename": "latest",
     "gulp-sass": "latest",
     "gulp-uglify": "latest",
-    "gulp-util": "latest"
+    "gulp-util": "latest",
+    "sass": "^1.38.1"
   },
   "name": "elisa-e-marco-wedding",
   "description": "Elisa & Marco Sposi",
