@@ -33,9 +33,6 @@ http://modernizr.com/
 Google Fonts
 https://www.google.com/fonts/
 
-Google Map
-https://maps.google.com/
-
 Icomoon
 https://icomoon.io/app/
 
