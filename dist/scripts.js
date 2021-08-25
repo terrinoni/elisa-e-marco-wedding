@@ -718,14 +718,12 @@ $(document).ready(function() {
 
 });
 ; (function () {
-
 	'use strict';
 
 	// iPad and iPod detection	
 	var isiPad = function () {
 		return (navigator.platform.indexOf("iPad") != -1);
 	};
-
 
 	var isiPhone = function () {
 		return (
@@ -756,7 +754,6 @@ $(document).ready(function() {
 		}
 	};
 
-
 	// Offcanvas and cloning of the main menu
 	var offcanvas = function () {
 
@@ -780,14 +777,12 @@ $(document).ready(function() {
 				$('body').addClass('fh5co-offcanvas');
 			}
 			// event.preventDefault();
-
 		});
 
 		$('#offcanvas-menu').css('height', $(window).height());
 
 		$(window).resize(function () {
 			var w = $(window);
-
 
 			$('#offcanvas-menu').css('height', w.height());
 
@@ -798,10 +793,7 @@ $(document).ready(function() {
 			}
 
 		});
-
 	}
-
-
 
 	// Click outside of the Mobile Menu
 	var mobileMenuOutsideClick = function () {
@@ -815,17 +807,12 @@ $(document).ready(function() {
 		});
 	};
 
-
 	// Animations
-
 	var contentWayPoint = function () {
 		var i = 0;
 		$('.animate-box').waypoint(function (direction) {
-
 			if (direction === 'down' && !$(this.element).hasClass('animated')) {
-
 				i++;
-
 				$(this.element).addClass('item-animate');
 				setTimeout(function () {
 
@@ -836,11 +823,8 @@ $(document).ready(function() {
 							el.removeClass('item-animate');
 						}, k * 50, 'easeInOutExpo');
 					});
-
 				}, 100);
-
 			}
-
 		}, { offset: '85%' });
 	};
 
@@ -874,8 +858,7 @@ $(document).ready(function() {
 		var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 		// Display the result in an element with id="demo"
-		// document.getElementById("demo").innerHTML = days + "Days " + hours + "Hours "
-		// + minutes + "Minutes " + seconds + "Seconds ";
+		// document.getElementById("demo").innerHTML = days + "Days " + hours + "Hours " + minutes + "Minutes " + seconds + "Seconds ";
 
 		// Display the result in an element with id="demo"
 		document.getElementById("days").innerHTML = days + " <small>giorni</small>";
